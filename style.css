@@ -1,0 +1,263 @@
+/*container first*/
+
+body {
+	font-family: 'Open Sans Condensed', sans-serif;
+}
+
+#first{
+  background-image: linear-gradient(rgba(224, 154, 24, 0.6), rgba(0, 0, 0, 0.6)), url(img/randy-fath-ymf4_9Y9S_A-unsplash.jpg);
+  height: 70vh;
+  background-position: center;
+  background-size: cover;
+}
+
+@-webkit-keyframes zoom {
+  from {
+    -webkit-transform: scale(1, 1);
+  }
+  to {
+    -webkit-transform: scale(1.5, 1.5);
+  }
+}
+
+@keyframes zoom {
+  from {
+    transform: scale(1, 1);
+  }
+  to {
+    transform: scale(1.5, 1.5);
+  }
+}
+
+.carousel-inner .item > img {
+  -webkit-animation: zoom 20s;
+  animation: zoom 20s;
+}
+
+#second{
+  padding-top: 13% !important;
+}
+
+#item{
+  text-decoration: underline;
+  text-decoration-color: goldenrod;
+}
+
+#item:hover{
+  background-color: rgb(247, 233, 155);
+  text-decoration: none;
+}
+
+/*third div*/
+#third{
+  height: 50vh;
+  margin-top: -20px;
+}
+
+#image{
+  margin-top: -70%;
+}
+
+/*about us*/
+#about{
+  padding-top: 100px;
+  padding-bottom: 100px;
+  }
+  
+  #about .col-md-6{
+  padding: 20px 10px; 
+  }
+  
+  #about h3{
+  margin: 20px auto;
+  }
+
+  /*fourth*/
+
+  #fourth{
+    height: 50vh;
+    margin-top: -100px;
+    margin-bottom: 100px;
+  }
+
+  #left{
+    margin-top: -20px;
+  }
+
+  .services p{
+    font-size: 15px;
+    margin-top: 10px;
+    color: #777;
+    padding: 20px;
+}
+
+.services span{
+    color: lightseagreen;
+    transition: .5s;
+}
+
+.services .col-md-3:hover{
+background:  rgb(253, 225, 67);
+cursor: pointer;
+color: #fff;
+box-shadow: -5px 5px 10px 0 rgba(0,0,0,0.4);
+transition: .5s;
+}
+
+.services .col-md-3:hover .icon{
+    border: 1px solid #fff;
+    color: #fff;
+}
+
+.services .col-md-3:hover p{
+    color: #fff;
+}
+
+.services .col-md-3:hover span{
+    color: #fff;
+}
+
+.content-box{
+  
+  height: 100%;
+  width: 100%;
+  padding-bottom: 5px;
+}
+
+#h12{
+  text-align: center;
+  padding-top: 50px;
+  }
+  
+  #hing{
+      margin-top: 230px;
+  }
+  
+  #h12::after{
+      content: '';
+      background: rgb(235, 235, 28);
+      display: block;
+      height: 3px;
+      width: 170px;
+      margin: 20px auto 50px;
+  }
+
+  #fifth{
+    margin-top: 90px;
+    margin-bottom: 60px;
+}
+
+#texts{
+    margin-right: 30px;
+    color: #000;
+    font-family: sans-serif;
+    font-size: 15px;
+}
+
+.services .icon{
+  font-size: 30px;
+  margin: 20px auto;
+  padding: 10px;
+  height: 70px;
+  width: 70px;
+  border: 1px solid rgb(121, 121, 5);
+  border-radius: 50%;
+  color: lightseagreen;
+}
+
+.services .col-md-3:hover .icon{
+  border: 1px solid #fff;
+  color: #fff;
+}
+
+#btn{
+  background-color: gold;
+  border-radius: 10px 0px 10px 0px;
+  text-decoration: none;
+  color: white;
+}
+
+#btns{
+  background-color: gold;
+  border-radius: 0px 10px 0px 10px;
+  text-decoration: none;
+}
+
+#btn a{
+  color: white;
+  text-decoration: none;
+}
+
+#btns a{
+  color: white;
+  text-decoration: none;
+}
+
+#btn:hover{
+  background: transparent;
+  color: white;
+  text-decoration: none;
+}
+
+#btns:hover{
+  background: transparent;
+  color: white;
+  text-decoration: none;
+}
+
+#btnn{
+  background-color: gold;
+  border-radius: 10px 0px 10px 0px;
+  text-decoration: none;
+  color: white;
+}
+
+#btnn a{
+  color: black;
+  text-decoration: none;
+}
+
+#btnn:hover{
+  background: transparent;
+  color: gold;
+  text-decoration: none;
+}
+
+#btnn a:hover{
+  background: transparent;
+  color: gold;
+  text-decoration: none;
+}
+
+footer{
+  background-color: gold;
+  
+}
+
+@media(max-width:767px)
+{
+  #fifth{
+    padding-top: 300px;
+  }
+}
+
+@media(max-width:992px)
+{
+  #fifth{
+    margin-top: 200px;
+  }
+}
+
+@media(max-width:992px)
+{
+  #image{
+    height: 330px;
+  }
+}
+
+@media(max-width:767px)
+{
+  #btnn{
+    margin-bottom: 30px;
+  }
+}
